@@ -7,7 +7,7 @@ Weylus in action with [Xournal++](https://github.com/xournalpp/xournalpp):
 
 ![Weylus in action](In_action.gif)
 
-## Table of Contents
+## Table of Content
 * [Features](#features)
 * [Installation](#installation)
     * [Packages](#packages)
