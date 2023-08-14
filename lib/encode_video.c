@@ -409,7 +409,7 @@ void open_video(VideoContext* ctx, Error* err)
 
 	AVDictionary* opt = NULL;
 	// enable writing fragmented mp4
-	av_dict_set(&opt, "movflags", "frag_custom+default_base_moof", 0);
+	av_dict_set(&opt, "movflags", "frag_custom+default_base_moof", 0); //empty_moov???
 	ret = avformat_write_header(ctx->oc, &opt);
 	if (ret < 0)
 		log_warn("Video: failed to write header!");
